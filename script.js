@@ -4,7 +4,7 @@ const minute = document.getElementById('minute');
 const second = document.getElementById('second');
 
 // This is where the clock functions.
-let clock = setInterval(
+const clock = setInterval(
   function time () {
     const dateNow = new Date();
     let hr = dateNow.getHours();
@@ -26,4 +26,4 @@ let clock = setInterval(
     minute.textContent = min;
     second.textContent = sec;
   }, 1000
-)
+);
