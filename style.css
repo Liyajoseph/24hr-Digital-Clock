@@ -24,7 +24,6 @@ body {
   font-family: "Courier New", Courier, monospace;
   transition: 0.5s;
   transition-property: background, box-shadow;
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,4 +33,11 @@ body {
 #clock:hover {
   background: rgb(42, 157, 143);
   box-shadow: 0 0 20px rgb(42, 157, 143);
+}
+
+#link {
+height:28px;
+width:130px;
+font-size:12px;
+text-align: center;
 }
